@@ -8,13 +8,13 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #DAED7C;
 }
 
 header {
     display: flex;
     height: 250px;
     justify-content: space-between;
+    background-color: #DAED7C;
     font-family: "Asap", sans-serif;
 }
 
@@ -76,6 +76,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #DAED7C;
     font-family: "Rubik", sans-serif;
 }
 
@@ -90,7 +91,64 @@ main .texto {
     font-weight: 1000;
 }
 
+main .texto p {
+    position: relative;
+}
+
+main .texto p:nth-child(1) { 
+    z-index: 2; 
+}
+
+main .texto p:nth-child(2) { 
+    z-index: 4;
+}
+
+main .texto p:nth-child(3) { 
+    z-index: 2; 
+}
+
+main .linhas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 3;
+}
+
+.linhas img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+main .limao {
+    height: 140px;
+    display: flex;
+    position: absolute;
+    z-index: 6;
+    left: 55vh;
+}
+
+main .laranja {
+    height: 180px;
+    display: flex;
+    position: absolute;
+    left: 135vh;
+    top: 51vh;
+    z-index: 7;
+}
+
 footer {
     height: 50px;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #DAED7C;
+}
+
+footer img {
+    display: flex;
+    position: absolute;
+    height: 60vh;
+    z-index: 5;
 }
