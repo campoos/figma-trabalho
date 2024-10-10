@@ -73,7 +73,20 @@ header {
 main {
     flex-grow: 1;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: cornflowerblue;
+}
+
+main .texto {
+    color: #0D2916;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+    font-size: 350px;
+    line-height: 75%;
+    font-weight: 1000;
 }
 
 footer {
