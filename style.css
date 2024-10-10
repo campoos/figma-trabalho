@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 250px;
+    background-color:chocolate;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    background-color: crimson;
+}
