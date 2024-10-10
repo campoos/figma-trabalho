@@ -13,7 +13,61 @@ body {
 header {
     display: flex;
     height: 250px;
+    justify-content: space-between;
     background-color:chocolate;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 5px 38px;
+    font-size: 33px;
+    font-weight: 470;
+    color: #0D2916;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 8px 4px 0px rgba(0,0,0,1);
+    background-color: #EAFB9A; 
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.botao a {
+    text-decoration: none;
+    padding: 3px 38px;
+    font-size: 33px;
+    font-weight: 470;
+    color: #EFFF9C;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 8px 4px 0px rgba(0,0,0,1);
+    background-color: #395545; 
 }
 
 main {
