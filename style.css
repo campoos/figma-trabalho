@@ -16,6 +16,7 @@ header {
     justify-content: space-between;
     background-color: #DAED7C;
     font-family: "Asap", sans-serif;
+    z-index: 8;
 }
 
 .logo {
@@ -51,6 +52,11 @@ header {
     background-color: #EAFB9A; 
 }
 
+.links a:active {
+    transform: translateY(3px); 
+    box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.6); 
+}
+
 .botao {
     display: flex;
     align-items: center;
@@ -69,6 +75,11 @@ header {
     border-radius: 50px 50px 50px 50px;
     box-shadow: 0px 8px 4px 0px rgba(0,0,0,1);
     background-color: #395545; 
+}
+
+.botao a:active {
+    transform: translateY(3px); 
+    box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.6);
 }
 
 main {
@@ -151,4 +162,5 @@ footer img {
     position: absolute;
     height: 60vh;
     z-index: 5;
+    filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 }
