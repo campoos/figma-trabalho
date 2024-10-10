@@ -8,13 +8,13 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #DAED7C;
 }
 
 header {
     display: flex;
     height: 250px;
     justify-content: space-between;
-    background-color:chocolate;
     font-family: "Asap", sans-serif;
 }
 
@@ -76,7 +76,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: cornflowerblue;
     font-family: "Rubik", sans-serif;
 }
 
@@ -94,5 +93,4 @@ main .texto {
 footer {
     height: 50px;
     display: flex;
-    background-color: crimson;
 }
